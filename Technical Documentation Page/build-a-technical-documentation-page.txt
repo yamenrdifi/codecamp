@@ -1,0 +1,86 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main id="main-doc">
+      <section id="text" class="main-section">
+         <header id="text">text</header>
+               <ul>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+    </ul>
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+    <code>Code Example 1</code>
+    </section>
+    <section id="text" class="main-section">
+         <header id="text">text</header>
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+    <code>Code Example 2</code>
+    </section>
+    <section id="text" class="main-section">
+         <header id="text">text</header>
+    <ul>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+    </ul>
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+    <code>Code Example 3</code>
+    </section>
+    <section id="text" class="main-section">
+         <header id="text">text</header>
+    <ul>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+    </ul>
+   <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+    <code>Code Example 4</code>
+    </section>
+    <section id="text" class="main-section">
+         <header id="text">text</header>
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+    <code>Code Example 5</code>
+    </section>
+    <nav id="navbar">
+        <header id="text">
+        <ul>
+            <li>
+                text
+            </li>
+            </ul>
+            </header>
+     <a class="nav-link" href="#text">text</a>
+     <a class="nav-link" href="#text">text</a>
+     <a class="nav-link" href="#text">text</a>
+     <a class="nav-link" href="#text">text</a>
+     <a class="nav-link" href="#text">text</a>
+     
+</nav>
+</main>
+
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#navbar {
+    position: fixed;
+    left: 0;
+}
+@media (max-width: 768px) {
+}
+
+** end of undefined **
+

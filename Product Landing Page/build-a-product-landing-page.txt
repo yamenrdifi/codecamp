@@ -1,0 +1,82 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="header">
+    <img id="header-img" src="logo.png" alt="Logo">
+    <nav id="nav-bar">
+      <a href="#section1" class="nav-link">Section 1</a>
+      <a href="#section2" class="nav-link">Section 2</a>
+      <a href="#section3" class="nav-link">Section 3</a>
+    </nav>
+  </header>
+  
+  <section id="section1">
+  </section>
+  
+  <section id="section2">
+  </section>
+  
+  <section id="section3">
+    
+  </section>
+  
+  <video id="video" src="your_video_source_here.mp4" controls>
+  Your browser does not support the video tag.
+</video>
+  <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <input type="submit" id="submit" value="Submit">
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styles for navigation */
+#nav-bar {
+  display: flex;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+section {
+  height: 100vh;
+  padding: 50px;
+}
+
+::placeholder {
+  color: #888;
+}
+
+@media (max-width: 768px) {
+}
+
+** end of undefined **
+

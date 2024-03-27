@@ -1,0 +1,44 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">
+      fast food  
+    </h1>
+    <p id="description">Indulge in a symphony of flavors at our fast food haven, where every bite is a journey of satisfaction. From sizzling burgers to crispy fries, our menu is a celebration of deliciousness. Step into our vibrant ambiance and experience the joy of quick, mouthwatering meals. At our fast food restaurant, convenience meets culinary delight."<p/>
+    <form id=survey-form>
+    <input required placeholder="Enter your name" id="name" type="text"><input/>
+    <input required placeholder="Enter your email" id="email" type="email"><input/>
+    <input required placeholder="Enter your numbre"id="number"type="number" min="10"
+    max="10"><input/>
+    <label for="name" id="name-label">Name:</label>
+    <label for="email" id="email-label">Email:</label>
+    <label for="number" id="number-label">Number:</label>
+    <select id="dropdown" name="dropdown">
+ <option value="1">test1</option>
+    <option value="2" selected="selected">test2</option>
+    <input type="radio" id="radio1" name="radio-group" value="value1">
+<input type="radio" id="radio2" name="radio-group" value="value2">
+</select>
+<input type="checkbox" id="checkbox1" name="checkbox1" value="value1">
+<input type="checkbox" id="checkbox2" name="checkbox2" value="value2">
+<textarea id="comments" name="comments" placeholder="Enter your comments"></textarea>
+<input type="submit" id="submit" value="Submit">
+<form/>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
