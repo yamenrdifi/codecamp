@@ -1,0 +1,118 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <nav id="navbar">
+    <ul>
+      <li><a href="#welcome-section">Welcome</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a id="profile-link" href="https://github.com/yourgithubusername" target="_blank">GitHub</a></li>
+    </ul>
+  </nav>
+
+  <section id="welcome-section">
+    <h1>Welcome to My Portfolio</h1>
+  </section>
+
+  <section id="projects">
+    <div class="project-tile">
+      <h2>Project 1</h2>
+      <p>Description of project 1</p>
+      <a href="#">View Project</a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+}
+
+#navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#navbar ul li {
+  display: inline;
+}
+
+#navbar ul li a {
+  display: inline-block;
+  padding: 15px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#navbar ul li a:hover {
+  background-color: #555;
+}
+
+#welcome-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+#welcome-section h1 {
+  font-size: 3em;
+}
+
+#projects {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.project-tile {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.project-tile h2 {
+  font-size: 1.5em;
+}
+
+.project-tile p {
+  margin-bottom: 10px;
+}
+
+.project-tile a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  #navbar ul {
+    display: block;
+  }
+
+** end of undefined **
+
